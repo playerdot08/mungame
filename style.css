@@ -2,7 +2,7 @@
 /* 기본 스타일 */
 body {
     background-image: url('image/background.png');
-    background-size: 720px 1280px;
+    background-size: 720px 1000px;
     background-position: center center;
     background-attachment: fixed;
     margin: 0;
