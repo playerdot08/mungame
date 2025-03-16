@@ -9,8 +9,8 @@ canvas.height = 1280;
 // "시작하기" 버튼을 클릭했을 때 실행되는 함수
 document.getElementById('start-button').addEventListener('click', function() {
     // 게임 시작 화면을 숨기고 게임 화면을 보이게 하기
-    //document.getElementById('start-screen').style.display = 'none';  // 시작 화면 숨기기
-    //document.getElementById('game-screen').style.display = 'block';  // 게임 화면 보이기
+    document.getElementById('start-screen').style.display = 'none';  // 시작 화면 숨기기
+    document.getElementById('game-screen').style.display = 'block';  // 게임 화면 보이기
 
     // 버튼 숨기기
     document.getElementById('start-button').style.display = 'none';  // 버튼 숨기기
