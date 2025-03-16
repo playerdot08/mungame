@@ -13,9 +13,7 @@ body {
     align-items: center;
 }
 
-/* 화면 크기가 720px 이하일 때 모바일 스타일 적용 */
-@media screen and (max-width: 720px) {
-    body {
+body {
         background-color: white; /* 배경을 흰색으로 설정 */
     margin: 0;
     padding: 0;
@@ -34,7 +32,7 @@ body {
     background-attachment: fixed; /* 배경 이미지 고정 */
     background-position: center; /* 배경 이미지를 중앙에 맞추기 */
 }
-}
+
 
 #start-screen {
     text-align: center;
