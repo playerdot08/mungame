@@ -2,7 +2,7 @@
 /* 기본 스타일 */
 body {
     background-image: url('image/background.png');
-    background-size: 720px 800px;
+    background-size: 720px 1200px;
     background-position: center center;
     background-attachment: fixed;
     margin: 0;
@@ -25,7 +25,7 @@ body {
 
 #game-container {
     width: 720px;             /* 게임 영역 너비 설정 */
-    height: 1280px;           /* 게임 영역 높이 설정 */
+    height: 1200px;           /* 게임 영역 높이 설정 */
     position: relative;
     background-image: url('image/background.png'); /* 배경 이미지 설정 */
     background-size: cover;   /* 배경 이미지를 게임 영역에 맞게 조정 */
@@ -36,7 +36,6 @@ body {
 
 #start-screen {
     text-align: center;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
