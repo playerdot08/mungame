@@ -2,7 +2,7 @@
 /* 기본 스타일 */
 body {
     background-image: url('image/background.png');
-    background-size: 720px 1200px;
+    background-size: 720px 1280px;
     background-position: center center;
     background-attachment: fixed;
     margin: 0;
@@ -13,7 +13,9 @@ body {
     align-items: center;
 }
 
-body {
+/* 화면 크기가 720px 이하일 때 모바일 스타일 적용 */
+/*@media screen and (max-width: 720px) {*/
+    body {
         background-color: white; /* 배경을 흰색으로 설정 */
     margin: 0;
     padding: 0;
@@ -25,14 +27,14 @@ body {
 
 #game-container {
     width: 720px;             /* 게임 영역 너비 설정 */
-    height: 1200px;           /* 게임 영역 높이 설정 */
+    height: 1280px;           /* 게임 영역 높이 설정 */
     position: relative;
     background-image: url('image/background.png'); /* 배경 이미지 설정 */
     background-size: cover;   /* 배경 이미지를 게임 영역에 맞게 조정 */
     background-attachment: fixed; /* 배경 이미지 고정 */
     background-position: center; /* 배경 이미지를 중앙에 맞추기 */
 }
-
+/*}*/
 
 #start-screen {
     text-align: center;
@@ -46,12 +48,12 @@ body {
 https://www.color-hex.com/
 */
 #start-button {
-    display: inline-block;
+    
     top: 80%;
     left: 50%;
     transform: translateX(-50%);
     padding: 20px 40px;
-    font-size: 24px;
+    font-size: 20px;
     /*버튼 배경색*/
     background-color: #355749;
     /*폰트 색*/
