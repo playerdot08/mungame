@@ -16,8 +16,10 @@ body {
 /* 화면 크기가 720px 이하일 때 모바일 스타일 적용 */
 @media screen and (max-width: 720px) {
     body {
-        background-size: cover;  /* 화면 크기에 맞게 배경 이미지 크기 조정 */
-        height: auto;  /* 화면 크기에 맞게 높이 조정 */
+        background-image: url('image/background.png');
+    background-size: 720px 1280px;
+    background-position: center;
+    background-repeat: no-repeat;
     }
 
     canvas {
