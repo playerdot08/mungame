@@ -42,11 +42,17 @@ https://www.color-hex.com/
 #start-button {
     padding: 20px 40px;
     font-size: 24px;
+    /*버튼 배경색*/
     background-color: #355749;
+    /*폰트 색*/
     color: #dbd938;
-    border: none;
-    border-radius: 5px;
+    /*버튼 테두리 설정*/
+    border-color: #dbd938;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: solid;
     cursor: pointer;
+
 }
 
 #start-button:hover {
