@@ -46,7 +46,6 @@ body {
 https://www.color-hex.com/
 */
 #start-button {
-    position: absolute;
     top: 80%;
     left: 50%;
     transform: translateX(-50%);
