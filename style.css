@@ -27,7 +27,7 @@ body {
 
 #game-container {
     width: 720px;             /* 게임 영역 너비 설정 */
-    height: 1280px;           /* 게임 영역 높이 설정 */
+    height: 1200px;           /* 게임 영역 높이 설정 */
     position: relative;
     background-image: url('image/background.png'); /* 배경 이미지 설정 */
     background-size: cover;   /* 배경 이미지를 게임 영역에 맞게 조정 */
